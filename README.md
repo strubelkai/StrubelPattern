@@ -348,3 +348,4 @@ Plaid Pattern is a demo app that is intended to be used only for the purpose of 
 [server-readme]: #plaid-pattern---server
 [troubleshooting]: docs/troubleshooting.md
 [wsl]: https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly
+# StrubelPattern
