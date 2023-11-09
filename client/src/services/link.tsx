@@ -59,7 +59,7 @@ export function LinkProvider(props: any) {
   /**
    * @desc Creates a new link token for a given User or Item.
    */
-
+  console.log("Hello from client");
   const generateLinkToken = useCallback(async (userId, itemId) => {
     // if itemId is not null, update mode is triggered
     const linkTokenResponse = await getLinkToken(userId, itemId);

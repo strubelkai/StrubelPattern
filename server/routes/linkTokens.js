@@ -24,6 +24,7 @@ router.post(
   '/',
   asyncWrapper(async (req, res) => {
     try {
+      console.log("hello from server");
       const { userId, itemId } = req.body;
       let accessToken = null;
       let products = ['transactions']; // must include transactions in order to receive transactions webhooks
